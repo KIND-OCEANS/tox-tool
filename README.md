@@ -1,8 +1,8 @@
 # Exposure Awareness
 
-[![CI](https://github.com/jasonjessewang/tox-tool/actions/workflows/ci.yml/badge.svg)](https://github.com/jasonjessewang/tox-tool/actions/workflows/ci.yml)
-[![Deploy web app](https://github.com/jasonjessewang/tox-tool/actions/workflows/pages.yml/badge.svg)](https://github.com/jasonjessewang/tox-tool/actions/workflows/pages.yml)
-&middot; **[Try it](https://jasonjessewang.github.io/tox-tool/)** (live)
+[![CI](https://github.com/KIND-OCEANS/tox-tool/actions/workflows/ci.yml/badge.svg)](https://github.com/KIND-OCEANS/tox-tool/actions/workflows/ci.yml)
+[![Deploy web app](https://github.com/KIND-OCEANS/tox-tool/actions/workflows/pages.yml/badge.svg)](https://github.com/KIND-OCEANS/tox-tool/actions/workflows/pages.yml)
+&middot; **[Try it](https://kind-oceans.github.io/tox-tool/)** (live)
 
 A private, on-device way to see what you're exposed to (food, personal care, air, the places you spend your days), compare it with published guidance, and make your own changes. Built on toxicology and exposure science; non-fear-based by design.
 
@@ -74,7 +74,7 @@ Needs Node 22.5 or newer (the backend uses `node:sqlite`; this was built on Node
 
 ## Publishing (Git, the live site, iOS and Android)
 
-Live at [jasonjessewang.github.io/tox-tool](https://jasonjessewang.github.io/tox-tool/), pushed from this folder's
+Live at [kind-oceans.github.io/tox-tool](https://kind-oceans.github.io/tox-tool/), pushed from this folder's
 `main` branch (MIT-licensed). CI runs on every push and pull request (`.github/workflows/ci.yml`: types, the 572
 tests, the timezone matrix, the engine simulation, the backend, and the data pipeline); `.github/workflows/pages.yml`
 builds and deploys the web app itself on every push to `main`, no further steps needed after the one-time setup below.
@@ -88,7 +88,7 @@ git push -u origin main
 ```
 
 then **Settings &rsaquo; Pages &rsaquo; Build and deployment &rsaquo; Source: GitHub Actions** (one toggle, one
-time), and a find-and-replace of `jasonjessewang/tox-tool` in the badges and the "Try it" link above for your own
+time), and a find-and-replace of `KIND-OCEANS/tox-tool` in the badges and the "Try it" link above for your own
 repo name.
 
 iOS and Android build in the cloud through EAS once you've logged in with your own free Expo account; the exact

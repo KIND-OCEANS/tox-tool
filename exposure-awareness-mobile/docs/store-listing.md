@@ -10,7 +10,7 @@ come from the app as it is; if a feature changes, change this with it. Nothing h
 | --- | --- | --- |
 | Name / title | 30 | Exposure Awareness |
 | Category | | Health & Fitness (primary), Education (secondary) |
-| Privacy policy URL | | `https://jasonjessewang.github.io/tox-tool/privacy.html` |
+| Privacy policy URL | | `https://kind-oceans.github.io/tox-tool/privacy.html` |
 | Support URL | | the repository's Issues page, or a page you host; the app's own "Send feedback" opens the person's mail app |
 
 ## App Store
